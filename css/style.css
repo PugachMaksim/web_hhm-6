@@ -1,0 +1,259 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    max-width: 1600px;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+}
+.menu{
+    background: rgb(34, 34, 34);
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 18px 230px 19px 231px; */
+    column-gap: 859px;
+}
+
+.left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 41px;
+}
+
+.logo{
+    width: 44px;
+    height: 38px;
+}
+.search{
+    width: 26px;
+    height: 27px;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 33px;
+}
+
+.img__banner{
+    width: 800.58px;
+    height: 764px;
+}
+
+.right__menu__img{
+    width: 32px;
+    height: 29px;
+}
+
+.banner{
+    background: rgb(241, 228, 230);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    column-gap: 63.42px;
+}
+
+.Rectangle{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.txt__1{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57.6px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.txt__2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+}
+
+.offer{
+display: grid;
+grid-template-columns: repeat(3, 360px);
+grid-template-rows: 260px 180px;
+gap: 30px;
+margin-top: 65px;
+margin-bottom: 96px;
+}
+
+.women__1{
+    display: grid;
+    align-content: center;
+    /* background-size: 260px 180px; */
+    background-image: url("../img/offer/women.png");
+}
+.men__2{
+    display: grid;
+    align-content: center;
+    background-image: url("../img/offer/men.jpg");
+}
+
+.kids__3{
+    display: grid;
+    align-content: center;
+    background-image: url("../img/offer/kids.jpg");
+}
+
+.accesories{
+    display: grid;
+    align-content: center;
+    grid-column: 1 / span 3;
+    background-image: url("../img/offer/Group\ 39.jpg");
+    align-items: center;
+}
+
+.offer_text_1{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    color: #FFFFFF;
+    
+}
+
+.offer_text_2{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #F16D7F;
+    margin: auto;
+    /* line-height: 5px; */
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont{
+    display: grid;
+    gap: 30px;
+    grid-template: 587px 587px / 360px 360px 360px;
+}
+
+.products_{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.products_img{
+    width: 360px;
+    height: 420px;
+}
+
+.about{
+    padding: 24px 16px 24px 16px;
+}
+
+
+.product_name{
+    color: rgb(0, 0, 0);
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.product_text{
+    color: rgb(93, 93, 93);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 13px;
+    padding-bottom: 18px;
+}
+
+.price{
+    color: rgb(241, 109, 127);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.rek{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rek__text_1{
+    color: rgb(34, 34, 34);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+
+}
+.rek__text_2{
+    color: rgb(159, 159, 159);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 212px;
+    height: 48px;
+    border: 1px solid rgb(255, 106, 106);
+    margin-top: 68px;
+    margin-bottom: 60px;
+}
+
+.textdown{
+    color: rgb(242, 99, 118);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
