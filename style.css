@@ -6,7 +6,7 @@
 
 body{
     display: grid;
-    grid-template-rows: repeat(5, auto);
+    grid-template-rows: repeat(7, auto);
     grid-template-columns: 1fr;
     justify-content: stretch;
 }
@@ -400,13 +400,141 @@ justify-content: center;
 
 .down:hover .textdown{
     color: rgb(255, 255, 255);
-font-family: Lato;
-font-size: 16px;
-font-weight: 400;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
 }
+.feature{
+    width: 100%;
+    background: rgb(34, 34, 36);
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    column-gap: 30px;
+    padding-top: 104px;
+    padding-bottom: 104px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.feature1-3{
+    display: flex;
+    max-width: 360px;
+    max-height: 134px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature1-3 h1{
+    color: rgb(251, 251, 251);
+    font-size: 19.96px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 28px;
+    margin-bottom: 16px;
+}
+
+.feature1-3 p{
+    color: rgb(251, 251, 251);
+    font-size: 13.97px;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: center;
+}
+
+.subscription{
+    position: relative;
+    display: flex;
+    background-image:url("./img/SUBSCRIBE/Layer_41.png");
+    background-color: rgba(255, 255, 255, 0.5);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    padding-top: 126px;
+    padding-bottom: 97px;
+    column-gap: 223px;
+    z-index: 0;
+}
+
+.subscription::after{
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    opacity: 50%;
+}
+
+.face{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+}
+
+.subscribe__info{
+    position: relative;
+    max-width: 360px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.subscribe__info p{
+    color: rgb(34, 34, 36);
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.subscribe{
+    max-width: 557px;
+    z-index: 1;
+}
+
+.subscribe h1{
+color: rgb(34, 34, 36);
+font-size: 24px;
+font-weight: 700;
+line-height: 167.2%;
+text-align: center;}
+
+.subscribe p{
+    color: rgb(34, 34, 36);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 167.2%;
+    text-align: center;
+}
+/* .button{
+    display: flex;
+    position: relative;
+    max-width: 122px;
+    height: 49px;
+} */
+
+input{
+    width: 70%;
+    background: rgb(225, 225, 225);
+}
+
+
+
+
+
+
+
+
 
 @media (min-width:768px) and (max-width: 1024px){
     /* планшет */
